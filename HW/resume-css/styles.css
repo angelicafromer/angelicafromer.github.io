@@ -1,0 +1,77 @@
+body {
+  background: pink;
+}
+td, th { border: 3px dotted white
+}
+h2, h4, address, table {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  text-align: center;
+}
+
+a {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+  text-decoration: none;
+
+}
+#skills {color: hotpink;}
+#title {
+  color: hotpink;
+}
+.jobs {
+  color: hotpink;
+}
+
+a:hover {
+  color: black
+}
+
+#table {
+  border: 3px dotted white;
+  font-style: oblique;
+  font-size: 20px
+}
+
+td, th {
+  border: 1px solid white
+}
+
+ul {
+  font-family: 'Abril Fatface', cursive;
+  color: black;
+  text-align: justify;
+}
+
+.jobnames {
+  color: white;
+}
+
+#profileimage {
+  text-align: center;
+  background: hotpink;
+}
+
+h1 {
+  text-shadow: 1px 1px;
+  border-bottom: 5px dotted white;
+  padding-bottom: 15px;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+  h5 {text-align: center;}
+
+#description {text-shadow: 1px 1px;
+border-bottom: 5px dotted white;
+padding-bottom: 15px;
+font-family: 'Pacifico', cursive;
+font-size: 50px;
+text-align: center}
