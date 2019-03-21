@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+	font-family: couture;
+	background: url(images/bg.jpg) no-repeat fixed;
+	background-position: 10%;
+	-webkit-background-size: cover
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+html, body{
+	margin:0;
+ 	padding:0;
+ 	height:100%;
+ 	width: 100%;
+}
+
+h1{
+	color: white;
+	font-size: 72px;
+}
+
+h2{
+	color: white;
+	font-size: 30px;
+}
+p{
+	color: white;
+	font-size: 24px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.name{
+	text-align: center;
+	margin-bottom: 120px;
+
+}
+.line{
+	font-size: 48px;
+}
+.nav-bar{
+	display: inline;
+	background-color: #1b2b54;
+	height: 100%;
+	width: 170px;
+	position: fixed;
+	left: 0;
+}
+
+
+.logo{
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.nav-box{
+	color: #d3dbe8;
+	text-align: center;
+	height: 20%;
+	width: 100%;
+}
+.nav-item{
+	position: relative;
+	top: 75%
+}
+#portfolio{
+	background: url(images/portfolio.png) no-repeat;
+	background-position: center 40%;
+}
+#portfolio:hover{
+	background: url(images/portfoliohover.png) no-repeat;
+	background-color: #141f3d;
+	background-position: center 40%;
+	color: white;
+}
+#about{
+	background: url(images/about.png) no-repeat;
+	background-position: center 40%;
+}
+#about:hover{
+	background: url(images/abouthover.png) no-repeat;
+	background-color: #141f3d;
+	background-position: center 40%;
+	color: white;
+}
+#contact{
+	background: url(images/contact.png) no-repeat;
+	background-position: center 40%;
+}
+#contact:hover{
+	background: url(images/contacthover.png) no-repeat;
+	background-color: #141f3d;
+	background-position: center 40%;
+	color: white;
+}
+.section-right{
+	display: inline;
+	right: 0;
+	height: 100%;
+	width: calc(100% - 170px);
+    position: absolute;
+}
+.right-text{
+	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+}
+.learn-more{
+	/*display: inline;*/
+	margin: 0;
+	text-align: center;
+}
+.learn-box{
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 10px 5px 10px;
+	width: 175px;
+	/*height: 50px;*/
+	border: 2px solid white;
+}
+.dev{
+	text-align: center;
+	margin-bottom: 80px;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+.arrow{
+	margin-top: 50px;
+}
+#target{
+	position: absolute;
+	width: calc(100% - 170px);
+	height: 100%;
+	background-color: red;
+	right: 0;
+	top: 100%;
+}
+form{
+	margin: 0 auto;
+}
+input, textarea{
+	width: 350px;
+	height: 30px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+}
+textarea{
+	height: 100px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#form{
+	position: relative;
+ 	top: 50%;
+ 	transform: translateY(-50%);
+ 	text-align: center;
+}
+#submit{
+	background-color: #1b2b54;
+	color: white;
+	font-family: couture;
+	border: none;
+	-webkit-appearance: none;
+	width: 100px;
+	height: 40px;
+	padding: 0;
+}
+.yellow{
+	transition: background-color 0.7s ease;
+	width: 100%;
+	height: 100%;
+}
+.yellow:hover{
+	background-color: #c5b931;
+	opacity: 0.7;
+}
+#left-yellow:hover {
+	opacity: 0.8;
+}
+.port-text-div {
+	pointer-events:none;
+	opacity: 0;
+	transition: opacity 0.7s ease;
+}
+.section:hover .port-text-div {
+	opacity: 1;
+}
+#left {
+	height: 100%;
+	width: 50%;
+	float: left;
+	background: url('images/pong.png') no-repeat center center;
+	background-size: auto 100%;
+}
+#left:hover {
+	background: url('images/pong.gif') no-repeat center center;
+	background-size: auto 100%;
+
+}
+#top-right {
+	height: 50%;
+	width: 50%;
+	float: right;
+	background: url('images/calculator.png') no-repeat center top;
+	background-size: 100% auto;
+}
+#top-right:hover {
+	background: url('images/calculator.gif') no-repeat center top;
+	background-size: 100% auto;
+}
+#bottom-right{
+	height: 50%;
+	width: 50%;
+	float: right;
+	background: url('images/tictac.png') no-repeat center center;
+	background-size: cover;
+}
+#bottom-right:hover {
+	background: url('images/tictac.gif') no-repeat center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.portfolio-text{
+	position: absolute;
+	bottom: 0;
+	color: white;
+	padding-left: 20px;
+	/*transition: all 0.7s ease;*/
+}
+
+.section{
+	position: relative;
+	transition: all 0.7s ease;
+}
+.section:hover{
+	color: #141f3d;
+}
+.portfolio-div{
+	width: 100%;
+	height: 100%;
+}
+#about-text{
+	width: 75%;
+	text-align: center;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#thank-you-text {
+	text-align: center;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#work:hover {
+    color: #c6c33d;
+}
+@media (min-width: 974px){
+	#left, #left:hover {
+		background-size: cover;
+		background-position: center center;
+	}
+
+}
+@media (max-width: : 590px) {
+	#top-right, #top-right:hover {
+		background-size: cover;
+		background-position: center center;
+	}
+}

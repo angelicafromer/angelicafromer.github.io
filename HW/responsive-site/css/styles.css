@@ -1,0 +1,71 @@
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+  color: black;
+  text-align: center;
+  margin: auto;
+
+}
+div {
+  width: 150px;
+  padding: 10px;
+  margin: 0;
+
+}
+
+#grid {
+  height: 100px;
+  display: grid;
+  grid-template-areas: "a a";
+  grid-gap: 10px;
+  grid-auto-columns: 200px;
+}
+
+#grid > div {
+  background-color: black;
+}
+
+#title {font-size: 50px}
+#front {padding: 5px;
+margin: 0;
+border: black solid 5px;}
+
+#page {
+  display: grid;
+  width: 100%;
+  height: 50px;
+  grid-template-areas: "head head"
+                       "nav  main"
+                       "nav  foot";
+  grid-template-rows: 50px 1fr 30px;
+  grid-template-columns: 150px 1fr;
+}
+
+#page > header {
+  grid-area: head;
+  background-color: #aec6cf;
+}
+
+#page > nav {
+  grid-area: nav;
+  background-color: white;
+}
+
+#page > main {
+  grid-area: main;
+  background-color: #cfcfc4;
+}
+
+#page > footer {
+  grid-area: foot;
+  background-color: #aec6cf;
+}
+    body {
+        font-family: 'Playfair Display', serif;
+      background: #cfcfc4;
+    }
+    a:hover {
+      color: black; }
+      a.active {
+    background-color: #4CAF50;
+    color: white;
+  }

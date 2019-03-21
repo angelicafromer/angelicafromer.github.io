@@ -1,8 +1,11 @@
 body {
   background: pink;
 }
-td, th { border: 3px dotted white
+
+td, th {
+  border: 3px dotted white
 }
+
 h2, h4, address, table {
   font-family: 'Abril Fatface', cursive;
   color: white;
@@ -19,12 +22,16 @@ a {
   font-family: 'Abril Fatface', cursive;
   color: white;
   text-decoration: none;
-
 }
-#skills {color: hotpink;}
+
+#skills {
+  color: hotpink;
+}
+
 #title {
   color: hotpink;
 }
+
 .jobs {
   color: hotpink;
 }
@@ -67,11 +74,16 @@ h1 {
   text-align: center;
   color: white;
 }
-  h5 {text-align: center;}
 
-#description {text-shadow: 1px 1px;
-border-bottom: 5px dotted white;
-padding-bottom: 15px;
-font-family: 'Pacifico', cursive;
-font-size: 50px;
-text-align: center}
+h5 {
+  text-align: center;
+}
+
+#description {
+  text-shadow: 1px 1px;
+  border-bottom: 5px dotted white;
+  padding-bottom: 15px;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  text-align: center
+}

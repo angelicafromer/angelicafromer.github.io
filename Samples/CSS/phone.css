@@ -1,0 +1,26 @@
+.margin10 {margin: 0px;}
+.largeslide {display: none;}
+.smallslide {width: 100%}
+main {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top; 20px;
+}
+
+.rightcolumn {display" block;
+min-height: 100px;
+width: 80%;
+padding: 10px;
+background: red;
+margin-left: auto;
+margin-right: auto; }
+
+.leftcolumn {
+  display; block;
+  min-height: 100px;
+  width: 100%;
+}
+.largeslide {max-width: 100%}
