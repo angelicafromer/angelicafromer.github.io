@@ -1,17 +1,19 @@
-h1, h2 {
-    font-family: 'Playfair Display', serif;
+h1 {
+  font-family: 'Playfair Display', serif;
   color: black;
   text-align: center;
   margin: auto;
-
 }
-div {
+
+h3 {
+  text-align: center;
+}
+
+/*div {
   width: 150px;
   padding: 10px;
   margin: 0;
-
-}
-
+}*/
 #grid {
   height: 100px;
   display: grid;
@@ -20,16 +22,21 @@ div {
   grid-auto-columns: 200px;
 }
 
-#grid > div {
+#grid>div {
   background-color: black;
 }
 
-#title {font-size: 50px}
-#front {padding: 5px;
-margin: 0;
-border: black solid 5px;}
+#title {
+  font-size: 50px
+}
 
-#page {
+#front {
+  padding: 5px;
+  margin: 0;
+  border: black solid 5px;
+}
+
+/*#page {
   display: grid;
   width: 100%;
   height: 50px;
@@ -58,14 +65,112 @@ border: black solid 5px;}
 #page > footer {
   grid-area: foot;
   background-color: #aec6cf;
+}*/
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  grid-template-areas:
+    "image image image"
+    "image image image"
+    "image image image"
+    "image image image";
 }
-    body {
-        font-family: 'Playfair Display', serif;
-      background: #cfcfc4;
-    }
-    a:hover {
-      color: black; }
-      a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
+
+#gallery>img {
+  grid-area: image;
+}
+
+#gallery img {
+  width: 100%;
+  height: 100%;
+  transition: filter 0.3s ease-in;
+}
+
+.image {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(85, 85, 85, 0.4);
+}
+
+.image:hover .title {
+  opacity: 1;
+}
+
+.image:hover img {
+  filter: blur(2px);
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  background: #cfcfc4;
+}
+
+a:hover {
+  color: black;
+}
+
+a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li {
+  /*float: left;*/
+  display: inline-block;
+  margin: 10px 5px 10px 5px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #989076;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+#square {
+  border: black solid 3px;
+  padding: 0px 0px;
+  text-align: center;
+}
+
+#me {border: black solid 3px; }

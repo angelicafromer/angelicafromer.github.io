@@ -1,0 +1,11 @@
+#gallery {
+  grid-template-columns: 1fr 1fr; /* To specify 2 columns of equal size. So, in mobile you get 2 images per row  */
+}
+#indexgrid {grid-template-columns: 1fr 1fr; /* To specify 2 columns of equal size. So, in mobile you get 2 images per row  */
+}
+#italy {
+  grid-template-columns: 1fr; /* To specify 1 column of equal size. So, in mobile you get 2 images per row  */
+}
+#aboutme {
+  grid-template-columns: 1fr, 1fr; /* To specify 1 column of equal size. So, in mobile you get 1 images per row  */
+}
