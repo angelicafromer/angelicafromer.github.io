@@ -167,7 +167,7 @@ footer {
   text-align: center;
 }
 
-#square {
+.square {
   border: black solid 3px;
   padding: 0px 0px;
   text-align: center;
