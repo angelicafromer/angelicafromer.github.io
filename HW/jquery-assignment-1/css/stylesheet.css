@@ -1,0 +1,14 @@
+button {
+  background: #fadadd;
+font-family: 'Playfair Display', serif;
+}
+h1 {font-family: 'Pacifico', cursive;}
+body { background-color: #F0E68C;
+  text-align: center;
+}
+p {
+  font-family: 'Playfair Display', serif;
+}
+  button:hover { background-color: white;
+}
+img {border: 1px dotted black; }
